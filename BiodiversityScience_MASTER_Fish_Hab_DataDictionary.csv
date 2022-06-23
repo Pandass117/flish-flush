@@ -1,0 +1,149 @@
+Field,Description of Field,Equipment Used (if applicable)
+SITEID,Sampling event unique identifier,
+Project Name,Long form of project name,
+Field Number,"Combination of Project, date, and a number to differentiate sites",
+Date,Date of sampling,
+Day,Day of sampling,
+Month,Month of sampling,
+Year,Year of sampling,
+Date fished,Date passive gear collected,
+Waterbody Name,Name of waterbody,
+WaterbodyType,"Waterbody type, limited to wetland, stream, or lake",
+Arrival Time,Time when site is reached prior to sampling,
+Departure Time,Time when site is departed upon sampling completion,
+Narrative Locality Description,"Description of the location of the sampling site, i.e. geographic names (roads, towns, etc.), structures (culverts, bridges, farms, etc.) and relative direction of the site from these features",
+Start Time,Time at which the crew begins sampling.,
+Stop Time,Time at which the crew completed sampling.,
+Start Latitude,Latitude at which the crew began sampling in decimal degrees,
+Start Longitude,Longitude at which the crew began sampling in decimal degrees,
+Stop Latitude,Latitude at which the crew completed sampling in decimal degrees,
+Stop Longitude,Longitude at which the crew completed sampling in decimal degrees,
+Gear,"Sampling gear code: BEF , BPEF, BPEF & SN, BS, DN, eDNA, FN, GN, HN, HN & MT, HN, MT & WT, LOG, LRV, MFN, MT, QLT, SN, TAG, TL, TN, TRL, VEG, WT/MT Combo","Variable, details provided in ""Description of Gear"" field"
+,BEF - Boat Electrofisher,
+,BPEF - Backpack Electrofisher,
+,BPEF & SN - Backpack Electrofisher and Seine Net,
+,BS - Boat Seine Net,
+,DN - Dip Net,
+,eDNA - Environmental DNA Sampling (water sample),
+,FN - Fyke Net,
+,GN - Gill Net,
+,HN - Hoop Net,
+,HN & MT - Hoop Net and Minnow Trap,
+,"HN, MT & WT - Hoop Net, Minnow Trap, and Windermere Trap",
+,LOG - Logger,
+,LRV - Larval Drift Net,
+,MFN - Mini Fyke Net,
+,MT - Minnow Trap,
+,QLT - Quadrofoil Larval Trap,
+,SN - Seine Net,
+,TAG - Telemetry Receiver,
+,TL - Trap Line,
+,TN - Trap Net,
+,TRL - Trawl Net,
+,VEG - Vegetation Sampling,
+,WT/MT Combo - Windermere Trap/Minnow Trap Combination,
+,,
+Description of Gear,Details of gear used,
+Effort,Numerical measurement of effort,
+Quantification of Effort,Units of effort measurement,
+Sampling_Method,Type of sampling undertaken:,
+,Assessment - No block net was used. Fish were captured from a variety of locations at the site.,
+,Depletion - A block net was used to isolate the site. Fish were captured from the same location until the isolated site was perceived to be depleted.,
+,Repeated - No block net was used to isolate the site. Fish were captured from the same location several times.,
+,Standardized - Gear types are deployed and fished in a consistent repeatable manner for fish community assessments.,
+,"Targeted - The deployment of gears and degree of effort is focused on the detection and capture of specified species, not on performing standardized and repeatable sampling.",
+,,
+Amps (A),Electrofishing gear setting,
+Volts (V),Electrofishing gear setting,
+Power (%),Electrofishing gear setting,
+Pulse/sec (Hz),Electrofishing gear setting,
+Watts (W),Electrofishing gear setting,
+Air Temperature (C),Air temperature in degrees Celsius,"Kestrel Pocket Wind Meter (1000, 2000, 3000)"
+Water Temperature (C),Water temperature in degrees Celsius,"Hanna HI 98312 DiST 6 EC/TDS/Temperature Tester, or YSI EXO2 Multiparameter Sonde (previous: YSI EXO/6600EDS-M/6600V2M; Hydrolab DS5)"
+Conductivity (uS/cm),Conductivity in uS/cm,"Hanna HI 98312 DiST 6 EC/TDS/Temperature Tester, or YSI EXO2"
+Dissolved Oxygen (mg/L),Dissolved oxygen in mg/L,YSI EXO2 Multiparameter Sonde (previous: YSI EXO/6600EDS-M/6600V2M/ProODO; Hydrolab DS5)
+pH,pH of water,YSI EXO2 Multiparameter Sonde (previous: YSI EXO/6600EDS-M/6600V2M; Hydrolab DS5)
+Secchi Disc > measured,"Yes = the Secchi depth was greater than what is recorded in ""Secchi Disc""",
+Secchi Disc (m),Secchi Disc depth measurement in meters,
+Secchi Tube > measured,"Yes = the Secchi depth was greater than what is recorded in ""Secchi Tube""",
+Secchi Tube (m),Secchi Tube depth measurement in meters,
+Turbidity (ntu),Turbidity measured in ntu,YSI EXO2 (Previous: La Motte 2020e Turbidity meter; YSI EXO)
+Stream Width (m),Stream width measured in meters,"Nikon/Bushnell range finder (various), measuring tape, visual estimation, Garmin/Humminbird/Lowrance GPS unit"
+Distance From Shore (m),"The maximum distance from shore the crew has sampled, measured in meters","Nikon/Bushnell range finder (various), measuring tape, visual estimation, Garmin/Humminbird/Lowrance GPS unit"
+Site Length (m),Length of the site in meters,"Nikon/Bushnell range finder (various), measuring tape, visual estimation, Garmin/Humminbird/Lowrance GPS unit"
+Sample Area Width (m),Width of sampling area in metres,"Nikon/Bushnell range finder (various), measuring tape, visual estimation, Garmin/Humminbird/Lowrance GPS unit"
+Sample Area Length (m),Length of sampling area in metres,"Nikon/Bushnell range finder (various), measuring tape, visual estimation, Garmin/Humminbird/Lowrance GPS unit"
+Habitat Type,"Qualitative assessment of the type of habitat within the sampling area. Options are ""riffle"", ""run"", ""pool"" a combination thereof, or ""lake""",
+Dominant Vegetation,"Aquatic vegetation that is dominant in the sampling area, visually assessed and identified to Genus at minimum",
+Bank Slope (%),Visual assessment of the bank slope as a percentage,
+Bank Slope (degrees),Visual assessment of the bank slope in degrees,
+Channel Cover (%),Visual assessment of the amount of canopy cover (riparian vegetation and valley vegetation) occurring over the sampling site,
+Wind Speed (Beaufort),Wind speed using Beaufort Wind Speed Scale (0-10). Field no longer utilized.,
+Wind Speed (km/h),Wind speed in km/h,"Kestrel Pocket Wind Meter (1000, 2000, 3000)"
+Wind Direction,"Compass direction, i.e. N, NNW, etc.",
+Province,Province in which sampling occurred,
+Date Record Created,Date data entry occurred in database,
+TDS (g/L),Total dissolved solids measured in g/L,"Hanna HI 98312 DiST 6 EC/TDS/Temperature Tester, or YSI EXO/EXO2"
+Salinity,Salinity measured (dimensionless - no units),YSI EXO2 Multiparameter Sonde (previous: YSI EXO/6600EDS-M/6600V2M; Hydrolab DS5)
+Organic,Visual or grab sample assessment of proportion of the sampling site substrate composed of organic material,Ponar grab sampler if taken from a vessel
+Clay,Visual or grab sample assessment of proportion of the sampling site substrate composed of clay,Ponar grab sampler if taken from a vessel
+Silt,Visual or grab sample assessment of proportion of the sampling site substrate composed of silt,Ponar grab sampler if taken from a vessel
+Sand,Visual or grab sample assessment of proportion of the sampling site substrate composed of sand,Ponar grab sampler if taken from a vessel
+Gravel,Visual or grab sample assessment of proportion of the sampling site substrate composed of gravel,Ponar grab sampler if taken from a vessel
+Cobble,Visual or grab sample assessment of proportion of the sampling site substrate composed of cobble,Ponar grab sampler if taken from a vessel
+Boulder,Visual or grab sample assessment of proportion of the sampling site substrate composed of boulder,Ponar grab sampler if taken from a vessel
+Bedrock,Visual or grab sample assessment of proportion of the sampling site substrate composed of bedrock,Ponar grab sampler if taken from a vessel
+Hardpan,Visual or grab sample assessment of proportion of the sampling site substrate composed of hardpan,Ponar grab sampler if taken from a vessel
+Rubble,Visual or grab sample assessment of proportion of the sampling site substrate composed of rubble,Ponar grab sampler if taken from a vessel
+Concrete,Visual or grab sample assessment of proportion of the sampling site substrate composed of concrete,Ponar grab sampler if taken from a vessel
+Unknown,Visual or grab sample assessment of proportion of the sampling site substrate composed of unknown material,Ponar grab sampler if taken from a vessel
+ND,No substrate data,
+Dominant_substrate,Visual or grab sample assessment of dominant substrate of the sampling site,Ponar grab sampler if taken from a vessel
+Gravel/Boulder,Visual assessment of proportion of the sampling site substrate composed of gravel/boulder. No longer used in substrate assessments,
+Marl,Visual assessment of proportion of the sampling site substrate composed of marl. No longer used in substrate assessments,
+Silt/Clay,Visual assessment of proportion of the sampling site substrate composed of silt/clay. No longer used in substrate assessments,
+rock,Visual assessment of proportion of the sampling site substrate composed of rock. No longer used in substrate assessments,
+silt/muck,Visual assessment of proportion of the sampling site substrate composed of silt/muck. No longer used in substrate assessments,
+silt/sand,Visual assessment of proportion of the sampling site substrate composed of silt/sand. No longer used in substrate assessments,
+Emergent,Visual assessment of proportion of the sampling site composed of emergent vegetation,
+Floating,Visual assessment of proportion of the sampling site composed of floating vegetation,
+Submerged,Visual assessment of proportion of the sampling site  composed of submerged vegetation,
+Open Water,Visual assessment of proportion of the sampling site composed of open water,
+Not_recorded_aqua_veg,Proportion of the sampling site vegetation not recorded,
+Unknown_aqua_veg,Proportion of the sampling site vegetation that is unknown,
+Dominant_aqua_veg,Dominant vegetation of the sampling site. Genus/Species listed are artifacts of old field sheets.,
+Deciduous,Visual assessment of proportion of the sampling site riparian zone composed of deciduous trees,
+Coniferous,Visual assessment of proportion of the sampling site riparian zone composed of coniferous trees,
+Herbaceous,Visual assessment of proportion of the sampling site riparian zone composed of herbaceous plants,
+shrubs,Visual assessment of proportion of the sampling site riparian zone composed of shrubs,
+None,Visual assessment of proportion of the sampling site riparian zone composed of nothing,
+Unknown,Proportion of the sampling site riparian zone that is unknown,
+Not recorded,Proportion of the sampling site riparian zone not recorded,
+Dominant_riparian_veg,"Dominant riparian vegetation of the sampling site. Typically one of the 7 prior fields (Deciduous, Coniferous, Herbaceous, shrubs, None, Unknown, or Not recorded), some records originating from old field sheet format differ.",
+agriculture,Visual assessment of proportion of the sampling site riparian zone composed of agricultural land. No longer used in riparian vegetation assessments,
+FARM,Visual assessment of proportion of the sampling site riparian zone composed of a farm. No longer used in riparian vegetation assessments,
+Forest,Visual assessment of proportion of the sampling site riparian zone composed of forest. No longer used in riparian vegetation assessments,
+Mature trees,Visual assessment of proportion of the sampling site riparian zone composed of mature trees. No longer used in riparian vegetation assessments,
+Mixed,Visual assessment of proportion of the sampling site riparian zone composed of mixed use. No longer used in riparian vegetation assessments,
+Mixed forest,Visual assessment of proportion of the sampling site riparian zone composed of mixed forest. No longer used in riparian vegetation assessments,
+Sedge,Visual assessment of proportion of the sampling site riparian zone composed of sedge. No longer used in riparian vegetation assessments,
+suburban,Visual assessment of proportion of the sampling site riparian zone composed of suburban land. No longer used in riparian vegetation assessments,
+Trees,Visual assessment of proportion of the sampling site riparian zone composed of trees. No longer used in riparian vegetation assessments,
+urban,Visual assessment of proportion of the sampling site riparian zone composed of urban land. No longer used in assessments. No longer used in riparian vegetation assessments,
+wetland,Visual assessment of proportion of the sampling site riparian zone composed of wetland. No longer used in riparian vegetation assessments,
+wetland plants,Visual assessment of proportion of the sampling site riparian zone composed of wetland plants. No longer used in riparian vegetation assessments,
+Stream depth (m),Depth of stream measured in metres,"Metre stick, Garmin/Humminbird/Lowrance vessel GPS with sonar, Laylin Speedtech SM-5 Depthmate Portable sounder & depth meter"
+depth_>_recorded,Depth of sampling site is greater than what was recorded,
+Water velocity (msec),Water velocity measured in metres per second,"Swoffer 2100 Current Velocity Meter (used most 2009-2019), OTT MF Pro Water and Depth Sensor (new 2020), Global Water Flow Probe FP111/211/311 (older)"
+Bin Number,Bin number in which species was captured during sampling event (equivalent of a haul),
+Bin_time_s,"Time spent capturing fish for this bin/haul, in seconds.",
+Bin_ID,ID code of bin/haul in which species was captured,
+Species_Data_ID,"Species record unique identifier, connects the species record to the site record in the database",
+Number Captured,Number of fish captured,
+Caught > Number captured,Number of fish caught exceeds recorded number of fish captured,
+Species,Scientific name of species captured,
+Minimum (mm),Minimum length of species captured in millimeters,
+Maximum (mm),Maximum length of species captured in millimeters,
+,,
+,,
+,"Note: ""999"" entries in various fields indicate that the parameter was not measurable (e.g. depth exceeded measurement equipment range).",
